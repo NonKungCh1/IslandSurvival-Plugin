@@ -1,6 +1,11 @@
-name: RealisticFire
+name: IslandSurvival
 version: 1.0
-main: com.nonkungch.realisticfire.RealisticFire
+main: com.nonkungch.islandsurvival.IslandSurvival
 api-version: 1.21
 author: NonKungCh
-description: Makes fire sources extinguish in the rain.
+description: Generates custom island worlds with sharks!
+commands:
+  createislandworld:
+    description: Creates the deserted island (ocean) world.
+    usage: /createislandworld
+    permission: islandsurvival.createworld
